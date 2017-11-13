@@ -5,7 +5,7 @@ Calculating the Ingredient Sum Dynamically
 
 
 
------------------ no deja grabar
+----------------- no deja grabar intento fallido
 hoc/Aux.js
 
 import React  from 'react';

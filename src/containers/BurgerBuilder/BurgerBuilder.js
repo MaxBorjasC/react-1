@@ -5,10 +5,28 @@ import Aux from '../../hoc/Aux'
 import Burger from '../../components/Burger/Burger';
 
 class BurgerBuilder extends Component {
+
+    // constructor(props){
+    //  super(props)   
+    // }
+
+
+    state = {
+        ingredients: {
+            salad: 1,
+            bacon: 1,
+            cheese: 2,
+            meat: 2
+        },
+        totalPrice: 4,
+        purchasable: false,
+        purchasing: false
+    }
+
     render () {
         return(
             <Aux>
-                <Burger />
+                <Burger ingredients={this.state.ingredients} />
                 <div>Build Controls</div>
             </Aux>
         )

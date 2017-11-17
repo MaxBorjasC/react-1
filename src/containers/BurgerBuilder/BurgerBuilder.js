@@ -5,13 +5,11 @@ import Aux from '../../hoc/Aux'
 import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls'
 
-class BurgerBuilder extends Component {
 
+class BurgerBuilder extends Component {
     // constructor(props){
     //  super(props)   
     // }
-
-
     state = {
         ingredients: {
             salad: 0,
